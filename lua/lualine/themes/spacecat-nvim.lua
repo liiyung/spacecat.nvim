@@ -1,6 +1,6 @@
-local dracula = require("dracula")
-local configs = dracula.configs()
-local colors = dracula.colors()
+local spacecat = require("spacecat")
+local configs = spacecat.configs()
+local colors = spacecat.colors()
 
 local bg = configs.lualine_bg_color or colors.black
 

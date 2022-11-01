@@ -48,7 +48,7 @@ local function setup(configs)
       Keyword = { fg = colors.cyan, },
       Keywords = { fg = colors.cyan, },
       Identifier = { fg = colors.cyan, },
-      Function = { fg = colors.yellow, },
+      Function = { fg = colors.sakura, },
       Statement = { fg = colors.orange, },
       Conditional = { fg = colors.pink, },
       Repeat = { fg = colors.pink, },
@@ -161,7 +161,7 @@ local function setup(configs)
       ['@label'] = { fg = colors.cyan, },
 
       ['@keyword'] = { fg = colors.pink, },
-      ['@keyword.function'] = { fg = colors.cyan, },
+      ['@keyword.function'] = { fg = colors.sakura, },
       ['@keyword.operator'] = { fg = colors.pink, },
       ['@operator'] = { fg = colors.pink, },
       ['@exception'] = { fg = colors.purple, },

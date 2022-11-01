@@ -11,6 +11,7 @@ return {
    purple = "#a59cf5",
    cyan = "#9bbbdd",
    pink = "#e07a9d",
+   sakura = "#fad6f8",
    bright_red = "#e07a9d",
    bright_green = "#9cc087",
    bright_yellow = "#e9ac7f",

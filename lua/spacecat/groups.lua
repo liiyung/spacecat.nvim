@@ -97,7 +97,7 @@ local function setup(configs)
       FoldColumn = {},
       Search = { fg = colors.black, bg = colors.orange, },
       IncSearch = { fg = colors.orange, bg = colors.comment, },
-      LineNr = { fg = colors.comment, },
+      LineNr = { fg = colors.nontext, },
       MatchParen = { fg = colors.fg, underline = true, },
       NonText = { fg = colors.nontext, },
       Pmenu = { fg = colors.white, bg = colors.menu, },

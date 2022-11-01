@@ -49,7 +49,7 @@ local function setup(configs)
       Keywords = { fg = colors.cyan, },
       Identifier = { fg = colors.cyan, },
       Function = { fg = colors.yellow, },
-      Statement = { fg = colors.pink, },
+      Statement = { fg = colors.orange, },
       Conditional = { fg = colors.pink, },
       Repeat = { fg = colors.pink, },
       Label = { fg = colors.cyan, },

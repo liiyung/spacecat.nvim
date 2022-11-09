@@ -2,22 +2,23 @@ local spacecat = require("spacecat")
 local configs = spacecat.configs()
 local colors = spacecat.colors()
 
-local bg = configs.lualine_bg_color or colors.black
+-- local bg = configs.lualine_bg_color or colors.black
+local bg = colors.black
 
 local normal = {
-   a = { fg = colors.black, bg = colors.purple, gui = 'bold' },
-   b = { fg = colors.purple, bg = bg },
+   a = { fg = colors.black, bg = colors.blue, gui = 'regular' },
+   b = { fg = colors.blue, bg = bg },
    c = { fg = colors.white, bg = bg },
 }
 
 local command = {
-   a = { fg = colors.black, bg = colors.cyan, gui = 'bold' },
-   b = { fg = colors.cyan, bg = bg },
+   a = { fg = colors.black, bg = colors.orange, gui = 'bold' },
+   b = { fg = colors.orange, bg = bg },
 }
 
 local visual = {
-   a = { fg = colors.black, bg = colors.pink, gui = 'bold' },
-   b = { fg = colors.pink, bg = bg },
+   a = { fg = colors.black, bg = colors.purple, gui = 'bold' },
+   b = { fg = colors.purple, bg = bg },
 }
 
 local inactive = {
@@ -26,8 +27,8 @@ local inactive = {
 }
 
 local replace = {
-   a = { fg = colors.black, bg = colors.yellow, gui = 'bold' },
-   b = { fg = colors.yellow, bg = bg },
+   a = { fg = colors.black, bg = colors.cyan, gui = 'bold' },
+   b = { fg = colors.cyan, bg = bg },
    c = { fg = colors.white, bg = bg },
 }
 

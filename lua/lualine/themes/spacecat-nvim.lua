@@ -1,6 +1,19 @@
-local spacecat = require("spacecat")
-local configs = spacecat.configs()
-local colors = spacecat.colors()
+-- local spacecat = require("spacecat")
+-- local configs = spacecat.configs()
+-- local colors = spacecat.colors()
+
+local colors = {
+ 	pink = "#e07a9d",
+ 	orange = "#e9ac7f",
+ 	green = "#9cc087",
+ 	cyan = "#559988",
+ 	blue = "#9bbbdd",
+ 	purple = "#a59cf5",
+ 	black = "#17191a",
+ 	transparent = nil,
+ 	grey = "#666666",
+ 	outerbg = "#17191a",
+}
 
 -- local bg = configs.lualine_bg_color or colors.black
 local bg = colors.black

@@ -136,10 +136,10 @@ local function setup(configs)
 
       ['@constant.macro'] = { fg = colors.cyan, },
       ['@string.regex'] = { fg = colors.red, },
-      ['@string'] = { fg = colors.yellow, },
+      ['@string'] = { fg = colors.purple, },
       ['@string.escape'] = { fg = colors.cyan, },
       ['@character'] = { fg = colors.green, },
-      ['@number'] = { fg = colors.purple, },
+      ['@number'] = { fg = colors.orange, },
       ['@boolean'] = { fg = colors.purple, },
       ['@float'] = { fg = colors.green, },
       ['@annotation'] = { fg = colors.yellow, },
@@ -147,7 +147,7 @@ local function setup(configs)
       ['@namespace'] = { fg = colors.orange, },
 
       ['@function.builtin'] = { fg = colors.cyan, },
-      ['@function'] = { fg = colors.green, },
+      ['@function'] = { fg = colors.sakura, },
       ['@function.macro'] = { fg = colors.green, },
       ['@parameter'] = { fg = colors.orange, },
       ['@parameter.reference'] = { fg = colors.orange, },

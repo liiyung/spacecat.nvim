@@ -147,7 +147,7 @@ local function setup(configs)
       ['@namespace'] = { fg = colors.orange, },
 
       ['@function.builtin'] = { fg = colors.cyan, },
-      ['@function'] = { fg = colors.sakura, },
+      ['@function'] = { fg = colors.red, },
       ['@function.macro'] = { fg = colors.green, },
       ['@parameter'] = { fg = colors.orange, },
       ['@parameter.reference'] = { fg = colors.orange, },

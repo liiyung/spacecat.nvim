@@ -60,7 +60,7 @@ local function setup(configs)
       Title = { fg = colors.cyan, },
       Macro = { fg = colors.purple, },
       PreCondit = { fg = colors.cyan, },
-      Type = { fg = colors.cyan, },
+      Type = { fg = colors.white, },
       StorageClass = { fg = colors.white, },
       Structure = { fg = colors.yellow, },
       TypeDef = { fg = colors.yellow, },
@@ -153,7 +153,7 @@ local function setup(configs)
       ['@parameter.reference'] = { fg = colors.orange, },
       ['@method'] = { fg = colors.green, },
       ['@field'] = { fg = colors.orange, },
-      ['@property'] = { fg = colors.fg, },
+      ['@property'] = { fg = colors.cyan, },
       ['@constructor'] = { fg = colors.cyan, },
 
       ['@conditional'] = { fg = colors.pink, },

@@ -20,7 +20,7 @@ return {
    bright_cyan = "#559988",
    bright_white = "#bebebf",
    menu = "#17191a",
-   visual = "#625851",
+   visual = "#312c28",
    gutter_fg = "#17191a",
    nontext = "#414141",
    white = "#bebebf",

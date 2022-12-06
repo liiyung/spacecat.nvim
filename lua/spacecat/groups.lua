@@ -166,8 +166,9 @@ local function setup(configs)
       ['@keyword.operator'] = { fg = colors.pink, },
       ['@operator'] = { fg = colors.pink, },
       ['@exception'] = { fg = colors.purple, },
-      ['@type'] = { fg = colors.white, },
+      ['@type'] = { fg = colors.green, },
       ['@type.builtin'] = { fg = colors.cyan, italic = true, },
+      ['@type.qualifier'] = { fg = colors.pink, },
       ['@structure'] = { fg = colors.purple, },
       ['@include'] = { fg = colors.pink, },
 

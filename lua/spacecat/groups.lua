@@ -182,6 +182,7 @@ local function setup(configs)
       ['@text.title'] = { fg = colors.pink, }, -- title
       ['@text.literal'] = { fg = colors.yellow, }, -- inline code
       ['@text.uri'] = { fg = colors.yellow, italic = true, }, -- urls
+      ['@plain_value'] = { fg = colors.fg, },
 
       ['@tag'] = { fg = colors.cyan, },
       ['@tag.delimiter'] = { fg = colors.white, },

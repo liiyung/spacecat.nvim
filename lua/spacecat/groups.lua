@@ -184,6 +184,9 @@ local function setup(configs)
       ['@text.uri'] = { fg = colors.yellow, italic = true, }, -- urls
       ['@plain_value'] = { fg = colors.fg, },
       ['@arguments'] = { fg = colors.white, },
+      ['@argument'] = { fg = colors.white, },
+      ['@function.arguments'] = { fg = colors.white, },
+      ['@arguments.function'] = { fg = colors.white, },
 
       ['@tag'] = { fg = colors.cyan, },
       ['@tag.delimiter'] = { fg = colors.white, },

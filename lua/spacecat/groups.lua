@@ -153,7 +153,7 @@ local function setup(configs)
       ['@parameter.reference'] = { fg = colors.orange, },
       ['@method'] = { fg = colors.green, },
       ['@field'] = { fg = colors.orange, },
-      ['@property'] = { fg = colors.cyan, },
+      ['@property'] = { fg = colors.white, },
       ['@constructor'] = { fg = colors.cyan, },
 
       ['@conditional'] = { fg = colors.pink, },

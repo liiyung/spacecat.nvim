@@ -153,7 +153,7 @@ local function setup(configs)
       ['@parameter.reference'] = { fg = colors.orange, },
       ['@method'] = { fg = colors.green, },
       ['@field'] = { fg = colors.orange, },
-      ['@property'] = { fg = colors.white, },
+      ['@property'] = { fg = colors.cyan, },
       ['@constructor'] = { fg = colors.cyan, },
 
       ['@conditional'] = { fg = colors.pink, },
@@ -183,10 +183,6 @@ local function setup(configs)
       ['@text.literal'] = { fg = colors.yellow, }, -- inline code
       ['@text.uri'] = { fg = colors.yellow, italic = true, }, -- urls
       ['@plain_value'] = { fg = colors.fg, },
-      ['@arguments'] = { fg = colors.white, },
-      ['@argument'] = { fg = colors.white, },
-      ['@function.arguments'] = { fg = colors.white, },
-      ['@arguments.function'] = { fg = colors.white, },
 
       ['@tag'] = { fg = colors.cyan, },
       ['@tag.delimiter'] = { fg = colors.white, },
